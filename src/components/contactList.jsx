@@ -9,6 +9,7 @@ const contactList = (props) => {
           <div>{contact.name}</div>
           <div>{contact.email}</div>
         </div>
+        <i></i>
       </div>
     );
   });
