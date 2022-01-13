@@ -14,16 +14,16 @@ function App() {
     {
       id: 2,
       name: "Ram",
-      email: "ram@gamil.com",
+      email: "ram@gmail.com",
     },
   ];
 
   return (
-    <React.Fragment>
+    <div className="ui container">
       <Header />
       <AddContact />
       <ContactList contacts={contacts} />
-    </React.Fragment>
+    </div>
   );
 }
 
