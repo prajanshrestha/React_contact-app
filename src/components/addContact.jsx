@@ -3,24 +3,19 @@ import React, { Component } from "react";
 class AddContact extends React.Component {
   render() {
     return (
-      <div className="m-4">
+      <div className="ui main">
         <h2>Add contact</h2>
-        <form>
-          <div>
-            <label>Name</label><br />
+        <form className="ui form">
+          <div className="field">
+            <label>Name</label>
             <input type="text" name="name" placeholder="Name" />
           </div>
-          <hr />
-          <div>
-            <label>Email</label><br />
+          <div className="field">
+            <label>Email</label>
             <input type="text" name="email" placeholder="Email" />
           </div>
+          <button className="ui button blue">Add</button>
         </form>
-        <hr />
-        <button className="btn btn-info">Add</button>
-        <br /><br />
-        <hr />
-        <hr />
       </div>
     );
   }

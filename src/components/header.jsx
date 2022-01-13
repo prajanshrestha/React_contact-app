@@ -1,14 +1,13 @@
 import React, { Component } from "react";
 
-const header = () => {
+const Header = () => {
   return (
-    <div>
-      <div className="d-flex justify-content-center">
+    <div className="ui fixed menu">
+      <div className="ui container center">
         <h2>Contact manager</h2>
       </div>
-      <hr />
     </div>
   );
 };
 
-export default header;
+export default Header;
